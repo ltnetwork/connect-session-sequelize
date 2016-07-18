@@ -1,16 +1,16 @@
 {
-  "name": "connect-session-sequelize"
-  , "version": "2.3.1"
+  "name": "connect-session-sequelize-lt"
+  , "version": "1.0.0"
   , "description": "Session store for connect-session using sequelize"
-  , "homepage": "https://github.com/mweibel/connect-session-sequelize"
-  , "bugs": "https://github.com/mweibel/connect-session-sequelize/issues"
+  , "homepage": "https://github.com/ltnetwork/connect-session-sequelize"
+  , "bugs": "https://github.com/ltnetwork/connect-session-sequelize/issues"
   , "main": "index.js"
   , "scripts": {
     "test": "mocha ./test"
   }
   , "repository": {
 	"type": "git"
-	, "url": "https://github.com/mweibel/connect-session-sequelize.git"
+	, "url": "https://github.com/ltnetwork/connect-session-sequelize.git"
   }
   , "dependencies": {
     "debug": "^2.1.1"
@@ -27,6 +27,7 @@
   , "engines": {
     "node": "*"
   }
+  , "private": true
   , "keywords": [
     "connect-session",
     "connect",
@@ -36,5 +37,8 @@
     "sqlite"
   ]
   , "author": "Michael Weibel <michael.weibel@gmail.com> (https://github.com/mweibel)"
+  , "contributors": [
+    "Laurence Dougal Myers <lmyers@ltnetwork.com.au> (https://github.com/laurence-myers)"
+  ]
   , "license": "MIT"
 }
